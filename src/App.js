@@ -1,19 +1,19 @@
-import React from 'react';
-import { Toggle } from './components/BareMinimumRequirements/Toggle';
-import { Modal } from './components/BareMinimumRequirements/Modal';
-import { Tag } from './components/BareMinimumRequirements/Tag';
-import { Autocomplete } from './components/AdvancedChallenges/Autocomplete';
-import { ClickToEdit } from './components/AdvancedChallenges/ClickToEdit';
-import { Tab } from './components/BareMinimumRequirements/Tab';
-import './app.css';
-import './variables.css';
+import React from "react";
+import { Toggle } from "./components/BareMinimumRequirements/Toggle";
+import { Modal } from "./components/BareMinimumRequirements/Modal";
+import { Tag } from "./components/BareMinimumRequirements/Tag";
+import { Autocomplete } from "./components/AdvancedChallenges/Autocomplete";
+import { ClickToEdit } from "./components/AdvancedChallenges/ClickToEdit";
+import { Tab } from "./components/BareMinimumRequirements/Tab";
+import "./app.css";
+import "./variables.css";
 
 const App = () => {
   return (
     <>
       <div id="container">
         <div id="title">React Custom Component</div>
-          <div className="sub_title">Modal</div>
+        <div className="sub_title">Modal</div>
         <div className="box">
           <Modal />
         </div>
@@ -21,8 +21,8 @@ const App = () => {
           <div className="sub_title">Toggle</div>
           <Toggle />
         </div>
+        <div className="sub_title">Tab</div>
         <div className="box">
-          <div className="sub_title">Tab</div>
           <Tab />
         </div>
         <div className="box">
