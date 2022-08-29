@@ -14,10 +14,10 @@ const ToggleContainer = styled.div`
     background-color: #8b8b8b;
     // TODO : .toggle--checked 클래스가 활성화 되었을 경우의 CSS를 구현합니다.
     transition: all 0.5s ease-in-out;
-  }
-  & .toggle--checked {
-    background-color: var(--coz-purple-600);
-    transition: all 0.5s ease-in-out;
+    &.toggle--checked {
+      background-color: var(--coz-purple-600);
+      transition: all 0.5s ease-in-out;
+    }
   }
 
   > .toggle-circle {
@@ -30,10 +30,10 @@ const ToggleContainer = styled.div`
     background-color: #ffffff;
     // TODO : .toggle--checked 클래스가 활성화 되었을 경우의 CSS를 구현합니다.
     transition: all 0.5s ease-in-out;
-  }
-  & .toggle--checked {
-    left: 27px;
-    transition: all 0.5s ease-in-out;
+    &.toggle--checked {
+      left: 27px;
+      transition: all 0.5s ease-in-out;
+    }
   }
 `;
 

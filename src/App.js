@@ -17,8 +17,8 @@ const App = () => {
         <div className="box">
           <Modal />
         </div>
+        <div className="sub_title">Toggle</div>
         <div className="box">
-          <div className="sub_title">Toggle</div>
           <Toggle />
         </div>
         <div className="sub_title">Tab</div>

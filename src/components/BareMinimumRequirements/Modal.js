@@ -71,7 +71,7 @@ export const Modal = () => {
         {/* TODO : 조건부 렌더링을 활용해서 Modal이 열린 상태(isOpen이 true인 상태)일 때만 모달창과 배경이 뜰 수 있게 구현해야 합니다. */}
         {isOpen ? (
           <ModalBackdrop onClick={openModalHandler}>
-            <ModalView>
+            <ModalView onClick={(e) => e.stopPropagation()}>
               <div onClick={openModalHandler}>&times;</div>
               <div>I am Modal</div>
             </ModalView>
@@ -81,3 +81,4 @@ export const Modal = () => {
     </>
   );
 };
+// onClick={(e) => e.stopPropagation()}

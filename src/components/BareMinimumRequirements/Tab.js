@@ -16,7 +16,8 @@ const TabMenu = styled.ul`
 
   .submenu {
     ${"" /* 기본 Tabmenu 에 대한 CSS를 구현합니다. */}
-    width: 100%;
+    width: calc(100% / 3);
+    text-align: center;
     padding: 15px 10px;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
